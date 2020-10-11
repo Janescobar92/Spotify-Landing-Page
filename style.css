@@ -10,3 +10,34 @@
 .sponsors-logos{
     width: 4rem;
 }
+html {
+    box-sizing: border-box;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+body {
+  margin: 0;
+}
+.wave-container {
+  background: #5c6ac4;
+  height: 500px;
+}
+.wave-container > svg {
+  display: block;
+}
+.relative-container{
+    position:relative;
+}
+.image-container{
+    z-index: 0;
+    position: absolute;
+    top: 13rem;
+    left: 5rem; 
+}
+.wave{
+    z-index: -1; 
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+}
