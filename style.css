@@ -26,18 +26,17 @@ body {
 .wave-container > svg {
   display: block;
 }
-.relative-container{
+/* .relative-container{
     position:relative;
-}
+} */
 .image-container{
-    z-index: 0;
+    /* background: rgba(red, green, blue, 1); */
     position: absolute;
     top: 13rem;
     left: 5rem; 
 }
 .wave{
-    z-index: -1; 
-    position: relative;
-    top: 0rem;
-    left: 0rem;
+    border: black;
+    top: 13rem;
+    left: 5rem;
 }
